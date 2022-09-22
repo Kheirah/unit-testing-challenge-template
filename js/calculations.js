@@ -1,3 +1,3 @@
-function cubicVolume(length, width, depth) {
+export function cubicVolume(length, width, depth) {
   return length * width * depth;
 }
