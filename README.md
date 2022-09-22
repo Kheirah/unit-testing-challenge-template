@@ -1,12 +1,12 @@
 # Challenges JS Unit Testing
 
-You will use the JavaScript files in the js folder for these challenges.
+You will use the JavaScript files in the js folder for this challenge.
 
 ## Teenager tests
 
-- Open the `teenager.test.js` file and think about whether the tests here are fully testing the functionality of the `checkTeenagerStatus` function
-- Edit the test or write new tests so the function is tested better
-- If some of your test cases fail, think about whether the tests are wrong or whether the function implementation is wrong and fix it
+- Open the `teenager.test.js` file and think about whether the tests there are fully testing the functionality of the `checkTeenagerStatus` function
+- Edit the test or write new tests such that the function is tested better
+- If some of your test cases fail think about whether the tests are wrong or whether the function implementation is wrong and fix it
 
 **Optional**: You can use jest `each` to test multiple values with one test function
 
@@ -22,16 +22,16 @@ You will use the JavaScript files in the js folder for these challenges.
 
 The function `greet` in `greeting.js` has the following specifications:
 
-- If the passed argument is the name of one of the coaches (`Stefan`, `Felix` or `Thomas`) it should return the string: "Howdy Coach!"
+- If the passed argument is the name of one of the coaches (`Martin`, `Marc` or `Ernst`) it should return the string: "Howdy Coach!"
 - If the passed argument is `Dalia` it should return "Howdy Boss!"
 - If the passed argument is any other name it should return "Howdy name!" (where name is the value of the passed argument, e.g.: `greet("Luigi")` should return "Howdy Luigi!")
 
 Write tests to test the functionality first (Test Driven Development).
-Fully implement the function afterwards, so the tests pass.
+Fully implement the function afterwards so the tests pass.
 
 ## Extra challenge: Utilities tests
 
-The file `utilities.js` contains the function `toggleBookmark`. A test for this function already exist.
+The file `utilities.js` contains the function `toggleBookmark`. A test for this function already exists.
 You can find the test in the file `utilities.test.js`. The test is deactivated.
 
 - Activate the test by replacing `test.skip(...)` with `test(...)`. The test should fail.
