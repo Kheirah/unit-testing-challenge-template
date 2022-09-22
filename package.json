@@ -5,15 +5,12 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
-    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.0.3"
-  },
-  "dependencies": {
-    "cross-env": "^7.0.3"
   }
 }
